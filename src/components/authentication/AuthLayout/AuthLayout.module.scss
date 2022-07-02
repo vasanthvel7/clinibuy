@@ -1,0 +1,31 @@
+.signupSec {
+    background-color: var(--themeBg);
+    margin-bottom: 100px;
+    padding: 10px;
+    border-radius: 11px;
+    .rightSec {
+        height: 100%;
+        width: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.otpSec {
+    background-color: var(--themeBg);
+    margin-bottom: 100px;
+    padding: 80px;
+    padding-bottom: 130px !important;
+    border-radius: 11px;
+    .leftSec {
+        height: 100%;
+        width: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+}
+

@@ -1,0 +1,72 @@
+:root {
+    --fontRegular: "ASAP";
+    --fontSemibold: "ASAP Semibold";
+    --fontMedium: "ASAP Medium";
+    --fontBold: "ASAP Bold";
+    --primaryColor:#F7AD19;
+    --primaryLightColor:#FDFEC3;
+    --primaryBg:#053f5cf2;
+    --secondaryBg: #429EBD;
+    --themeBg: #F0F0F0;
+    --producttabBg:#FEFEFE;
+    --tabBg:#F4F4F4;
+    --productImgBg:#f2f2f299;
+    --textboxBg: #fff;
+    --primaryTextcolor:#000000cc;
+    --secondaryTextcolor:#FFFFFF;
+    --lightTextColor:#00000080;
+    --linkTextcolor:#429ebdcc;
+    --inputTextcolor:#000000b3;
+    --placeholderTextcolor: #0000007d;
+    --specifyTextcolor:#F27F0C;
+    --dangerTextcolor:#EC1515;
+    --blackText:#000000;
+    --disabledColor:#C4C4C4;
+  }
+
+  @font-face {
+    font-family: "ASAP Medium";
+    src: url("../assets/fonts/Asap-Medium.ttf") format("woff");
+  }
+  @font-face {
+    font-family: "ASAP";
+    src: url("../../src/assets/fonts/Asap-Regular.ttf") format("woff");
+  }
+  @font-face {
+    font-family: "ASAP Bold";
+    src: url("../../src/assets/fonts/Asap-Bold.ttf") format("woff");
+  }
+  @font-face {
+    font-family: "ASAP Semibold";
+    src: url("../../src/assets/fonts/Asap-SemiBold.ttf") format("woff");
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--primaryTextcolor);
+  background-color: var(--themeBg);
+}
+
+.mainsec {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  color: var(--primaryTextcolor);
+}
+.btn-outline-secondary.dropdown-toggle.show {
+  background: transparent !important;
+  border-color: none;
+}
+
+.lableTxt {
+  font-family: var(--fontSemibold);
+  color: var(--lightTextColor);
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+}
+

@@ -1,0 +1,224 @@
+.FooterSec {
+    background-color: var(--primaryBg);
+    width: 100%;
+    margin: auto;
+}
+.offerSec {
+    background-color: var(--textboxBg);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: absolute;
+    margin-top: -55px;
+    padding: 20px;
+    max-width: 1100px !important;
+   width: 100% !important;
+    p{
+        font-family: var(--fontMedium);
+        font-size: 15px;
+        line-height: 0px;
+    }
+    span {
+        font-family: var(--fontRegular);
+        font-size: 12px;
+    }
+    .offer {
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .truck_icon {
+        float: left;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        background: var(--primaryColor);
+        mask: url("../../../assets/icons/truck_icon.png") no-repeat center / contain;
+        -webkit-mask: url("../../../assets/icons/truck_icon.png") no-repeat center /
+          contain;
+      }
+      .rupee_icon {
+        float: left;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        background: var(--primaryColor);
+        mask: url("../../../assets/icons/rupee_icon.png") no-repeat center / contain;
+        -webkit-mask: url("../../../assets/icons/rupee_icon.png") no-repeat center /
+          contain;
+      }
+      .cards_icon {
+        float: left;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        background: var(--primaryColor);
+        mask: url("../../../assets/icons/cards_icon.png") no-repeat center / contain;
+        -webkit-mask: url("../../../assets/icons/cards_icon.png") no-repeat center /
+          contain;
+      }
+      .available_icon {
+        float: left;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        background: var(--primaryColor);
+        mask: url("../../../assets/icons/24x7_icon.png") no-repeat center / contain;
+        -webkit-mask: url("../../../assets/icons/24x7_icon.png") no-repeat center /
+          contain;
+      }
+}
+.offerContainer {
+   padding: 10px 15px;
+   border-right:  2px solid rgba(0, 0, 0, 0.1);
+   width: 100%;
+
+} 
+.offerContainerLast {
+    padding-left: 0px !important;
+    padding: 10px 15px;
+    
+}
+.categoryContainer {
+    padding:50px 0;
+    padding-top: 150px !important;
+    .categorySec {
+       
+        ul{
+            padding-top: 10px;
+            padding-left: 0rem !important;
+            li {
+                padding: 5px 0;
+                color: var(--secondaryTextcolor);
+                font-size: 13px;
+               
+            }
+        }
+        h1 {
+            font-size: 32px;
+            line-height: 37px;
+            color: var(--secondaryTextcolor);
+            font-family: var(--fontSemibold);
+            display: inline-block;
+            padding-bottom: 20px;
+            position: relative;
+        }
+        h1:before {
+            content: "";
+            position: absolute;
+            width: 50%;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            border-bottom:  4px solid #FFFFFF;
+            }
+            h6{
+                padding-top: 10px;
+                font-size: 15px;
+                line-height: 25px;
+                color: var(--secondaryTextcolor);
+                font-family: var(--fontRegular);
+            }
+            p {
+                color: var(--secondaryTextcolor);
+                padding: 8px 0!important;
+                font-size: 13px;
+                margin-bottom: 0px !important;
+                font-family: var(--fontRegular);
+                i {
+                    padding-right: 10px !important;
+                }
+            }
+            .email_icon {
+                float: left;
+                width: 14px;
+                height: 14px;
+                margin: 3px 5px;
+                margin-right: 10px;
+                background: var(--secondaryTextcolor);
+                mask: url("../../../assets/icons/email_icon.png") no-repeat center / contain;
+                -webkit-mask: url("../../../assets/icons/email_icon.png") no-repeat center /
+                  contain;
+            }
+            .location_icon {
+              float: left;
+              width: 14px;
+                height: 14px;
+                margin: 3px 5px;
+                margin-right: 10px;
+                background: var(--secondaryTextcolor);
+                mask: url("../../../assets/icons/location_icon.png") no-repeat center / contain;
+                -webkit-mask: url("../../../assets/icons/location_icon.png") no-repeat center /
+                  contain;
+            }
+            .call_icon {
+                float: left;
+                width: 14px;
+                height: 14px;
+                margin: 3px 5px;
+                margin-right: 10px;
+                background: var(--secondaryTextcolor);
+                mask: url("../../../assets/icons/call_icon.png") no-repeat center / contain;
+                -webkit-mask: url("../../../assets/icons/call_icon.png") no-repeat center /
+                  contain;
+              }
+            
+            .socialShareSec {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                p {
+                    background: rgba(255, 255, 255, 0.15);
+                    border-radius: 4px;
+                    margin: 5px;
+                    padding: 0px !important;
+                    text-align: center;
+                    margin-left: 0px !important;
+                    cursor: pointer;
+                }
+                .facebook_icon {
+                    float: left;
+                    margin:10px 14px;
+                    width: 18px;
+                    height: 18px;
+                    background: var(--secondaryTextcolor);
+                    mask: url("../../../assets/icons/facebook_icon.png") no-repeat center / contain;
+                    -webkit-mask: url("../../../assets/icons/facebook_icon.png") no-repeat center /
+                      contain;
+                  }  
+                  .instagram_icon {
+                    float: left;
+                    margin:10px 14px;
+                    width: 18px;
+                    height: 18px;
+                    background: var(--secondaryTextcolor);
+                    mask: url("../../../assets/icons/instagram_icon.png") no-repeat center / contain;
+                    -webkit-mask: url("../../../assets/icons/instagram_icon.png") no-repeat center /
+                      contain;
+                  }
+                  .twitter_icon {
+                    float: left;
+                    margin:10px 14px;
+                    width: 18px;
+                    height: 18px;
+                    background: var(--secondaryTextcolor);
+                    mask: url("../../../assets/icons/twitter_icon.png") no-repeat center / contain;
+                    -webkit-mask: url("../../../assets/icons/twitter_icon.png") no-repeat center /
+                      contain;
+                  }
+                  .google_plus_icon {
+                    float: left;
+                    margin:10px 14px;
+                    width: 20px;
+                    height: 20px;
+                    background: var(--secondaryTextcolor);
+                    mask: url("../../../assets/icons/google_plus_icon.png") no-repeat center / contain;
+                    -webkit-mask: url("../../../assets/icons/google_plus_icon.png") no-repeat center /
+                      contain;
+                  }
+            }
+    }
+    img {
+        float: left;
+        width: 100%;
+    }
+}
+
